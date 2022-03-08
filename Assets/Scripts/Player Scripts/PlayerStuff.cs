@@ -11,7 +11,7 @@ public enum PlayerState
     idle
 }
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerStuff : MonoBehaviour
 {
     public PlayerState currentState;
     public float speed; // variable for how fast the player is moving, public so you can change it from the inspector
