@@ -32,7 +32,7 @@ public class DungeonEnemyRoom : DungeonRoom
                 ChangeActivation(pots[i], true);
             }
             CloseDoors();
-            //virtualCamera.SetActive(true);
+            virtualCamera.SetActive(true);
         }
     }
 
@@ -49,7 +49,7 @@ public class DungeonEnemyRoom : DungeonRoom
             {
                 ChangeActivation(pots[i], false);
             }
-            //virtualCamera.SetActive(false);
+            virtualCamera.SetActive(false);
         }
     }
     public void CloseDoors()
