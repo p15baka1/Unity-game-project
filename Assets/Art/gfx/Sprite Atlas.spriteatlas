@@ -132,6 +132,15 @@ SpriteAtlas:
   - {fileID: -3833393396749457922, guid: d833bb21176da9842b8ff5e01d58c301, type: 3}
   - {fileID: 9134573472571772975, guid: d833bb21176da9842b8ff5e01d58c301, type: 3}
   - {fileID: -5003054306968451223, guid: d833bb21176da9842b8ff5e01d58c301, type: 3}
+  - {fileID: -1731698334687612445, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
+  - {fileID: -2665878694984211664, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
+  - {fileID: 3609628371360576048, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
+  - {fileID: -8594444657035011620, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
+  - {fileID: 7703992317178150448, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
+  - {fileID: -214038053689944921, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
+  - {fileID: 2211094218389665130, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
+  - {fileID: 7520988204323839609, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
+  - {fileID: -247678246039150259, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
   - {fileID: 1833455966329473441, guid: 803c800226f55ed489588318d5104f7f, type: 3}
   - {fileID: 3933026567825192282, guid: 803c800226f55ed489588318d5104f7f, type: 3}
   - {fileID: 5942017062700171601, guid: 803c800226f55ed489588318d5104f7f, type: 3}
@@ -310,6 +319,15 @@ SpriteAtlas:
   - {fileID: -7903152263914619656, guid: 797edff288d72344f9673d61f9538f97, type: 3}
   - {fileID: -4978113134295867063, guid: 797edff288d72344f9673d61f9538f97, type: 3}
   - {fileID: 47775018648080561, guid: 797edff288d72344f9673d61f9538f97, type: 3}
+  - {fileID: -1931670193428715250, guid: 17cb9973d35ff434a978d60189aadae9, type: 3}
+  - {fileID: -7947382156529991059, guid: 17cb9973d35ff434a978d60189aadae9, type: 3}
+  - {fileID: -7386512185057910902, guid: 17cb9973d35ff434a978d60189aadae9, type: 3}
+  - {fileID: 2750550591482371437, guid: 17cb9973d35ff434a978d60189aadae9, type: 3}
+  - {fileID: -1379932012030608058, guid: 17cb9973d35ff434a978d60189aadae9, type: 3}
+  - {fileID: 1365369167308681598, guid: 17cb9973d35ff434a978d60189aadae9, type: 3}
+  - {fileID: 2525196976512631501, guid: 17cb9973d35ff434a978d60189aadae9, type: 3}
+  - {fileID: -153086407610934577, guid: 17cb9973d35ff434a978d60189aadae9, type: 3}
+  - {fileID: -2435585574417175203, guid: 17cb9973d35ff434a978d60189aadae9, type: 3}
   - {fileID: 21300000, guid: 74386ad3eeea8274ba9f577584f64088, type: 3}
   - {fileID: -8291716999595344829, guid: b954a6f3cbb717b479ef5e664a0060dd, type: 3}
   - {fileID: 5435708274230064837, guid: b954a6f3cbb717b479ef5e664a0060dd, type: 3}
@@ -2185,6 +2203,15 @@ SpriteAtlas:
   - villager_sprite_1
   - villager_sprite_8
   - villager_sprite_9
+  - slime_monster_7
+  - slime_monster_6
+  - slime_monster_5
+  - slime_monster_4
+  - slime_monster_3
+  - slime_monster_2
+  - slime_monster_1
+  - slime_monster_0
+  - slime_monster_8
   - setgridless_34
   - setgridless_35
   - setgridless_36
@@ -2363,6 +2390,15 @@ SpriteAtlas:
   - cave_110
   - cave_108
   - cave_109
+  - slime_monster1_2
+  - slime_monster1_3
+  - slime_monster1_0
+  - slime_monster1_1
+  - slime_monster1_6
+  - slime_monster1_7
+  - slime_monster1_4
+  - slime_monster1_5
+  - slime_monster1_8
   - door
   - EvilSoldierSprite_14
   - EvilSoldierSprite_12
