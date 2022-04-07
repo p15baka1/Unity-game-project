@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum PlayerState
 {
@@ -179,6 +180,7 @@ public class PlayerStuff : MonoBehaviour
         else
         {
             this.gameObject.SetActive(false);
+            SceneManager.LoadScene("GameOverMenu");
         }
     }
 
