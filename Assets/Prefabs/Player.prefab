@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 628270455}
   - component: {fileID: 628270454}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Clue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 7518283
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8387997009269029421, guid: e012aec692d55484ea9b5ffb80131e50,
+  m_Sprite: {fileID: 5955781087917997448, guid: e012aec692d55484ea9b5ffb80131e50,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 1916715224}
   - component: {fileID: 1916715225}
   - component: {fileID: 1916715226}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Received Item
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 7278941368827296555}
   - component: {fileID: 7278941368827296556}
   - component: {fileID: 7278941368827296557}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: hitboxRight
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -248,30 +248,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.865464, y: -0.45990804}
-      - {x: 0.9275143, y: -0.37180567}
-      - {x: 0.95524454, y: -0.3283559}
-      - {x: 0.970315, y: -0.14897591}
-      - {x: 0.75931716, y: 0.20959234}
-      - {x: 0.6360252, y: 0.32835418}
-      - {x: 0.53558874, y: 0.38786548}
-      - {x: 0.44934273, y: 0.39511526}
-      - {x: 0.37071586, y: 0.35154587}
-      - {x: 0.31054187, y: -0.07483232}
-      - {x: 0.28761482, y: -0.17392647}
-      - {x: 0.313236, y: -0.24754784}
-      - {x: 0.2574494, y: -0.3290642}
-      - {x: 0.28945708, y: -0.31881803}
-      - {x: 0.27599472, y: -0.46869177}
-      - {x: 0.28854907, y: -0.5002148}
-      - {x: 0.2971425, y: -0.5126505}
-      - {x: 0.29937893, y: -0.53249824}
-      - {x: 0.34943008, y: -0.60832095}
-      - {x: 0.39315736, y: -0.6304321}
-      - {x: 0.48615527, y: -0.75865704}
-      - {x: 0.61016107, y: -0.7631406}
-      - {x: 0.65115416, y: -0.6880399}
-      - {x: 0.7609503, y: -0.61271167}
+    - - {x: 0.3752253, y: 0.276681}
+      - {x: 0.2428168, y: -0.45716843}
+      - {x: 0.5989704, y: -0.75285304}
+      - {x: 0.759099, y: -0.49781075}
+      - {x: 0.89057803, y: -0.21675333}
+      - {x: 0.5907295, y: 0.34489864}
+      - {x: 0.50033617, y: 0.3664847}
 --- !u!114 &7278941368827296557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,7 +287,7 @@ GameObject:
   - component: {fileID: 7278941369074768570}
   - component: {fileID: 1890677675}
   - component: {fileID: 1890677677}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -442,15 +425,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  speed: 4
+  speed: 3.5
   currentHealth: {fileID: 11400000, guid: dda9b1b6ce38d804fbe754dc7cb8ffaa, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 1c562642eb56f56409e6770a83c1bafc, type: 2}
   startingPosition: {fileID: 11400000, guid: 3fd6c61e61140264ab69d0909a5168cc, type: 2}
   playerInventory: {fileID: 11400000, guid: 40173c187382dde4f8e212c2d829d7bf, type: 2}
   receivedItemSprite: {fileID: 1916715225}
-  reduceArrow: {fileID: 0}
-  projectile: {fileID: 0}
-  bow: {fileID: 0}
+  reduceArrow: {fileID: 11400000, guid: aea4c9daaab63aa43b8aeabee714a548, type: 2}
+  projectile: {fileID: 6476808467531016602, guid: db0d284ef0c491844b011f1f5947af5b,
+    type: 3}
+  bow: {fileID: 11400000, guid: e9e3d74937a1435459f920564dc1b7d1, type: 2}
+  flashColor: {r: 1, g: 0, b: 0.08839035, a: 0.74509805}
+  regularColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.07
+  numberOfFlashes: 4
+  triggerCollider: {fileID: 7278941369074768570}
+  mySprite: {fileID: 7278941369074768564}
 --- !u!95 &7278941369074768569
 Animator:
   serializedVersion: 3
@@ -548,7 +538,7 @@ GameObject:
   - component: {fileID: 7278941369414271352}
   - component: {fileID: 7278941369414271353}
   - component: {fileID: 7278941369414271354}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: hitboxLeft
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -594,16 +584,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.32693958, y: 0.10041672}
-      - {x: -0.5242332, y: 0.29142094}
-      - {x: -0.65407526, y: 0.40428704}
-      - {x: -0.73707974, y: 0.41303462}
-      - {x: -0.8992092, y: 0.30901697}
-      - {x: -0.9030969, y: 0.11491376}
-      - {x: -0.9397937, y: -0.24423254}
-      - {x: -0.7392659, y: -0.6448821}
-      - {x: -0.4898513, y: -0.8839075}
-      - {x: -0.23024893, y: -0.7168441}
+    - - {x: -0.42236638, y: 0.08133131}
+      - {x: -0.5337759, y: 0.18168014}
+      - {x: -0.69224584, y: 0.3613451}
+      - {x: -0.7323084, y: 0.34623593}
+      - {x: -0.8085539, y: 0.25653234}
+      - {x: -0.85061216, y: 0.11968511}
+      - {x: -0.8109678, y: -0.2728605}
+      - {x: -0.6629245, y: -0.61625415}
+      - {x: -0.46567172, y: -0.7976764}
+      - {x: -0.2756176, y: -0.66391385}
       - {x: -0.3105595, y: -0.19793376}
 --- !u!114 &7278941369414271354
 MonoBehaviour:
@@ -631,7 +621,7 @@ GameObject:
   - component: {fileID: 7278941370465837655}
   - component: {fileID: 7278941370465837656}
   - component: {fileID: 7278941370465837657}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: hitboxUp
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -677,17 +667,19 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.6340246, y: 0.5393514}
-      - {x: -0.051847458, y: 0.8271758}
-      - {x: -0.2539993, y: 0.5912962}
+    - - {x: 0.58746076, y: 0.50442857}
+      - {x: 0.18766594, y: 0.66118926}
+      - {x: -0.1760174, y: 0.7030056}
+      - {x: -0.18027323, y: 0.5136899}
       - {x: 0.12343562, y: 0.50438637}
-      - {x: 0.14383727, y: 0.51020765}
-      - {x: 0.17447174, y: 0.50796014}
+      - {x: 0.11279482, y: 0.49080622}
+      - {x: 0.16283095, y: 0.46915692}
       - {x: 0.38218784, y: 0.3721518}
       - {x: 0.38858998, y: -0.14827237}
-      - {x: 0.44376504, y: -0.2963053}
-      - {x: 0.6736541, y: -0.32314944}
-      - {x: 0.7379067, y: 0.33782107}
+      - {x: 0.39720118, y: -0.23810065}
+      - {x: 0.56500554, y: -0.2455433}
+      - {x: 0.63352895, y: -0.2014735}
+      - {x: 0.6214974, y: 0.36110288}
 --- !u!114 &7278941370465837657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,7 +706,7 @@ GameObject:
   - component: {fileID: 7278941370797823271}
   - component: {fileID: 7278941370797823272}
   - component: {fileID: 7278941370797823273}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: hitboxDown
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -762,13 +754,14 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 0.034564972, y: -0.35955024}
       - {x: -0.24249554, y: -0.12667954}
-      - {x: -0.65715694, y: -0.13360083}
-      - {x: -0.72638506, y: -0.28434607}
-      - {x: -0.53017706, y: -0.7859737}
-      - {x: -0.3499868, y: -0.8896683}
-      - {x: 0.28179502, y: -1.0338985}
-      - {x: 0.41496098, y: -0.94151545}
-      - {x: 0.40378046, y: -0.4053226}
+      - {x: -0.53617346, y: -0.14872384}
+      - {x: -0.59784, y: -0.31459206}
+      - {x: -0.51505405, y: -0.6649903}
+      - {x: -0.29705632, y: -0.81405354}
+      - {x: 0.18349624, y: -0.9431607}
+      - {x: 0.30153906, y: -0.91883093}
+      - {x: 0.35730267, y: -0.69965386}
+      - {x: 0.365973, y: -0.43556848}
 --- !u!114 &7278941370797823273
 MonoBehaviour:
   m_ObjectHideFlags: 0
