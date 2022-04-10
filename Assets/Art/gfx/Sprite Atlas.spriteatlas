@@ -514,6 +514,30 @@ SpriteAtlas:
   - {fileID: -9142023535377414711, guid: 4b0920d4cab9d4e4db4153948d55fd8f, type: 3}
   - {fileID: -5193832560840874415, guid: 4b0920d4cab9d4e4db4153948d55fd8f, type: 3}
   - {fileID: 1791597074803700279, guid: 4b0920d4cab9d4e4db4153948d55fd8f, type: 3}
+  - {fileID: 3209915328995050144, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: -4608713908666505149, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: -907644359909163005, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 847181511826045165, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: -6559075064006293632, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 6480680843460530185, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 8027660415729109423, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 2747260113797568475, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 293830816871290197, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 4609756081123329971, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 5904827107174681573, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: -5568129297284775789, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 8290447846380018417, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 1607687727058375955, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 2737253686399118961, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: -3599120019096136704, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 2057056557223717021, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 3467022337109307303, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: -6874921547463330235, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 5182389397828721618, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: -456442469376822813, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: -8679281577548045717, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: -710447846294363854, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
+  - {fileID: 979085668387324139, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
   - {fileID: 21300000, guid: d469d325eb4aaf348983c5f2381c7d09, type: 3}
   - {fileID: 21300000, guid: 960fa55520c6d05459b2ed9f201e9ec3, type: 3}
   - {fileID: -5994326244328937702, guid: 645538559f533e2479e86e6f01e92781, type: 3}
@@ -2206,6 +2230,30 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 756d38c98b0c9324397318f9f77b36d4, type: 3}
   - {fileID: 21300000, guid: d3f838f9919a89648aba3b1547609a60, type: 3}
   - {fileID: 21300000, guid: eebc16fa20e65764aacaa8e34c89394f, type: 3}
+  - {fileID: -3028798375291233489, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -5465636515961935335, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -6428946784545394503, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: 4937493832978438965, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: 2458191850045277492, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: 124685931101599545, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -8879833746357127670, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -5194449462786326436, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: 5080612849536450387, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -3019365824808111097, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: 1690556461647117778, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -7520253231475151665, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -7270465292884224352, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: 8785549178650403074, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -1076162168080058379, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -547946937307879855, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -3097395315534082480, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: 6990464984365260176, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -1555495353653045103, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: 7668308593503701292, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: 8563399140989753670, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -5176126258077566146, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: 8570417946739102774, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
+  - {fileID: -4456300959049638649, guid: 5fe1799bb8c702244a8d3f387939934e, type: 3}
   - {fileID: -8993793091473859173, guid: e7db752c837c50c4fa64c14f96f5f56d, type: 3}
   - {fileID: 7138216347836992343, guid: e7db752c837c50c4fa64c14f96f5f56d, type: 3}
   - {fileID: 1164566296993508983, guid: e7db752c837c50c4fa64c14f96f5f56d, type: 3}
@@ -2787,6 +2835,30 @@ SpriteAtlas:
   - objects2_91
   - objects2_61
   - objects2_90
+  - andromalius-openmouth_23
+  - andromalius-openmouth_22
+  - andromalius-openmouth_21
+  - andromalius-openmouth_20
+  - andromalius-openmouth_9
+  - andromalius-openmouth_8
+  - andromalius-openmouth_3
+  - andromalius-openmouth_2
+  - andromalius-openmouth_1
+  - andromalius-openmouth_0
+  - andromalius-openmouth_7
+  - andromalius-openmouth_6
+  - andromalius-openmouth_5
+  - andromalius-openmouth_4
+  - andromalius-openmouth_18
+  - andromalius-openmouth_19
+  - andromalius-openmouth_16
+  - andromalius-openmouth_17
+  - andromalius-openmouth_14
+  - andromalius-openmouth_15
+  - andromalius-openmouth_12
+  - andromalius-openmouth_13
+  - andromalius-openmouth_10
+  - andromalius-openmouth_11
   - environment_forest_evening
   - arrow_up
   - SoldierAttackSprite_11
@@ -4479,6 +4551,30 @@ SpriteAtlas:
   - magic bottle
   - acid2-14x67
   - font
+  - andromalius-back_21
+  - andromalius-back_20
+  - andromalius-back_23
+  - andromalius-back_9
+  - andromalius-back_22
+  - andromalius-back_8
+  - andromalius-back_1
+  - andromalius-back_0
+  - andromalius-back_3
+  - andromalius-back_2
+  - andromalius-back_5
+  - andromalius-back_4
+  - andromalius-back_7
+  - andromalius-back_6
+  - andromalius-back_18
+  - andromalius-back_19
+  - andromalius-back_10
+  - andromalius-back_11
+  - andromalius-back_12
+  - andromalius-back_13
+  - andromalius-back_14
+  - andromalius-back_15
+  - andromalius-back_16
+  - andromalius-back_17
   - character1_4
   - character1_5
   - character1_6
