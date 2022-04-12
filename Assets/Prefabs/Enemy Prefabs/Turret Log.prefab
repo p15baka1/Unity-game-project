@@ -215,11 +215,13 @@ MonoBehaviour:
   moveSpeed: 1
   deathEffect: {fileID: 5531624327952938454, guid: 3e761159547f0a04c847679b68ed6fe5,
     type: 3}
+  thisLoot: {fileID: 11400000, guid: a2188bdcac76e5744a8ed65d5d42af49, type: 2}
+  homePosition: {x: 0, y: 0}
+  roomSignal: {fileID: 0}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 8
-  attackRadius: 0
-  homePosition: {fileID: 0}
+  attackRadius: 2
   anim: {fileID: 0}
   projectile: {fileID: 8907917124662931617, guid: 42016e02d7ad8724b8b659f92467ea58,
     type: 3}

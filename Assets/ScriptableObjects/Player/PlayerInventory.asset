@@ -17,4 +17,4 @@ MonoBehaviour:
   numberOfKeys: 104
   coins: 0
   maxArrows: 10
-  currentArrows: 10
+  currentArrows: 0

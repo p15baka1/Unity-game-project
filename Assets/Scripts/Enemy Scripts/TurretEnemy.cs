@@ -11,11 +11,14 @@ public class TurretEnemy : Log
 
     private void Update()
     {
-        fireDelaySec -= Time.deltaTime;
-        if(fireDelaySec <= 0)
+        if (canFire == false)
         {
-            canFire = true;
-            fireDelaySec = fireDelay;
+            fireDelaySec -= Time.deltaTime;
+            if (fireDelaySec <= 0)
+            {
+                canFire = true;
+                fireDelaySec = fireDelay;
+            }
         }
     }
     public override void CheckDistance()
