@@ -186,7 +186,7 @@ MonoBehaviour:
   myRigidbody: {fileID: 8287522605084504750}
   target: {fileID: 0}
   chaseRadius: 4
-  attackRadius: 1.2
+  attackRadius: 0
   anim: {fileID: 0}
   path:
   - {fileID: 0}
