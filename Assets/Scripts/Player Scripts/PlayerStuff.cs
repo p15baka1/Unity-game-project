@@ -33,7 +33,8 @@ public class PlayerStuff : MonoBehaviour
     public int numberOfFlashes;
     public Collider2D triggerCollider;
     public SpriteRenderer mySprite;
-    
+
+    public Animator transition;
 
 
 
@@ -180,8 +181,8 @@ public class PlayerStuff : MonoBehaviour
         }
         else
         {
-            this.gameObject.SetActive(false);
-            SceneManager.LoadScene("GameOverMenu");
+            StartCoroutine(LoadLevel());
+            mySprite.enabled = false;
         }
     }
 
@@ -210,5 +211,12 @@ public class PlayerStuff : MonoBehaviour
             temp++;
         }
         triggerCollider.enabled = true;
+    }
+
+    IEnumerator LoadLevel()
+    {
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("GameOverMenu");
     }
 }
