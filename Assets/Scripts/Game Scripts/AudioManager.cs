@@ -19,7 +19,7 @@ public class AudioManager : MonoBehaviour
             return;
         }
         
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject); use this if you want to carry sounds between scenes
 
         foreach (Sound s in sounds)
         {
@@ -32,11 +32,10 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    //method for theme song add maybe later
-    /*void Start()
+    void Start()
     {
-        Play("theme");
-    }*/
+        Play("Theme");
+    }
 
     public void Play (string name)
     {
