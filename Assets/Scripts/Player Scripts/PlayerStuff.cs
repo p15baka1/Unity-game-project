@@ -62,6 +62,7 @@ public class PlayerStuff : MonoBehaviour
             && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
+            FindObjectOfType<AudioManager>().Play("PlayerSwordSwing");
         }
         else if (Input.GetButtonDown("secondary attack")
             && currentState != PlayerState.attack
