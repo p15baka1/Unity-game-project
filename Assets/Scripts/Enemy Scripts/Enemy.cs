@@ -48,6 +48,7 @@ public class Enemy : MonoBehaviour
                 roomSignal.Raise();
             }
             this.gameObject.SetActive(false);
+            FindObjectOfType<AudioManager>().Play("EnemyDeath"); //if enemy dies
         }
     }
 
@@ -76,6 +77,7 @@ public class Enemy : MonoBehaviour
     {
         StartCoroutine(KnockCo(myRigidbody, knockTime));
         TakeDamage(damage);
+        FindObjectOfType<AudioManager>().Play("EnemyHit"); //when enemy gets hit
     }
     
     private IEnumerator KnockCo(Rigidbody2D myRigidbody, float knockTime)

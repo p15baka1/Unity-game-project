@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentItem: {fileID: 0}
   items: []
-  numberOfKeys: 49
-  coins: 11
+  numberOfKeys: 48
+  coins: 16
   maxArrows: 10
   currentArrows: 10
