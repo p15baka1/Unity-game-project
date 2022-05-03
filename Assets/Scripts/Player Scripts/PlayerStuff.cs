@@ -72,6 +72,7 @@ public class PlayerStuff : MonoBehaviour
             if (playerInventory.ItemCheck(bow))
             {
                 StartCoroutine(SecondAttackCo());
+                FindObjectOfType<AudioManager>().Play("Arrow");
             }
         }
         else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
@@ -136,6 +137,7 @@ public class PlayerStuff : MonoBehaviour
                 animator.SetBool("receive item", true);
                 currentState = PlayerState.interact;
                 receivedItemSprite.sprite = playerInventory.currentItem.itemSprite;
+                FindObjectOfType<AudioManager>().Play("FoundItem");
             }
             else
             {
@@ -178,6 +180,7 @@ public class PlayerStuff : MonoBehaviour
         {
             playerHealthSignal.Raise();
             StartCoroutine(KnockCo(knockTime));
+            FindObjectOfType<AudioManager>().Play("PlayerDamaged");
         }
         else
         {

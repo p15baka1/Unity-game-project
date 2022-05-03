@@ -15,6 +15,7 @@ public class HeartContainer : PowerUp
             playerHealth.RuntimeValue = heartContainers.RuntimeValue * 2;
             powerupSignal.Raise();
             Destroy(this.gameObject);
+            FindObjectOfType<AudioManager>().Play("HeartContainer");
         } 
     }
 }

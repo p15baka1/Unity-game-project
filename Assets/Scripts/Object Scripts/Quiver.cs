@@ -4,14 +4,8 @@ using UnityEngine;
 
 public class Quiver : PowerUp
 {
-
     public Inventory playerInventory;
     public float arrowValue;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
@@ -20,6 +14,7 @@ public class Quiver : PowerUp
             playerInventory.currentArrows += arrowValue;
             powerupSignal.Raise();
             Destroy(this.gameObject);
+            FindObjectOfType<AudioManager>().Play("Quiver");
         }
     }
 }

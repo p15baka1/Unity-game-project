@@ -27,6 +27,7 @@ public class Coin : PowerUp
             playerInventory.coins += 1;
             powerupSignal.Raise();
             Destroy(this.gameObject);
+            FindObjectOfType<AudioManager>().Play("Coin");
         }
     }
 }
