@@ -11,7 +11,6 @@ public class Switch : MonoBehaviour
     public Door thisDoor;
 
     
-    // Start is called before the first frame update
     void Start()
     {
         mySprite = GetComponent<SpriteRenderer>();
@@ -32,10 +31,10 @@ public class Switch : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        //is it the player?
         if (other.CompareTag("Player"))
         {
             ActivateSwitch();
+            FindObjectOfType<AudioManager>().Play("SwitchDoor");
         }
     }
 }

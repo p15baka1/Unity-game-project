@@ -25,6 +25,7 @@ public class Pot : MonoBehaviour
     {
         anim.SetBool("destroy", true);
         StartCoroutine(breakCo());
+        FindObjectOfType<AudioManager>().Play("Pot");
     }
 
     IEnumerator breakCo()

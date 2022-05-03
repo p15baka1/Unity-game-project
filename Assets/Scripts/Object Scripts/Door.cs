@@ -27,12 +27,14 @@ public class Door : Interactable
             if (playerInRange && thisDoorType == DoorType.key)
             {
                 //does the player have a key?
-                if(playerInventory.numberOfKeys > 0)
+                FindObjectOfType<AudioManager>().Play("KeyDoorClosed");
+                if (playerInventory.numberOfKeys > 0)
                 {
                     //remove a player key
                     playerInventory.numberOfKeys--;
                     //call the open method
                     Open();
+                    FindObjectOfType<AudioManager>().Play("KeyDoorOpen");
                 }
             }
         }
