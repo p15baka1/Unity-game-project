@@ -182,7 +182,7 @@ public class PlayerStuff : MonoBehaviour
             StartCoroutine(KnockCo(knockTime));
             FindObjectOfType<AudioManager>().Play("PlayerDamaged");
         }
-        else
+        else if(currentHealth.RuntimeValue <= 0)
         {
             StartCoroutine(LoadLevel());
             mySprite.enabled = false;
