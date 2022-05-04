@@ -21,7 +21,7 @@ public class PlayerStuff : MonoBehaviour
     private Animator animator;
     public FloatValue currentHealth;
     public SignalSystem playerHealthSignal;
-    public VectorValue startingPosition;
+    //public VectorValue startingPosition;
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
     public SignalSystem reduceArrow;
@@ -45,7 +45,7 @@ public class PlayerStuff : MonoBehaviour
         myRigidbody = GetComponent<Rigidbody2D>();
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
-        transform.position = startingPosition.initialValue;
+        //transform.position = startingPosition.initialValue;
     }
 
     // Update is called once per frame

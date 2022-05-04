@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class SceneTransition : MonoBehaviour
 {
     public string sceneToLoad;
-    public Vector2 playerPosition;
-    public VectorValue playerStorage;
+    //public Vector2 playerPosition;
+    //public VectorValue playerStorage;
     public GameObject fadeInPanel;
     public GameObject fadeOutPanel;
     public float fadeWait;
@@ -25,7 +25,7 @@ public class SceneTransition : MonoBehaviour
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
-            playerStorage.initialValue = playerPosition;
+            //playerStorage.initialValue = playerPosition;
             StartCoroutine(FadeCo());
             //SceneManager.LoadScene(sceneToLoad);
         }
