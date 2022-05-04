@@ -149,9 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad7de269987a4ec49875701234aa504d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clueOn: {fileID: 11400000, guid: 37e6be4d9964f3c4584862d334f2a2dc, type: 2}
-  clueOff: {fileID: 11400000, guid: 349491613072b1e4f9bd3fbf65cfeaa8, type: 2}
+  clue: {fileID: 11400000, guid: 37e6be4d9964f3c4584862d334f2a2dc, type: 2}
+  playerInRange: 0
   dialogBox: {fileID: 0}
   dialogText: {fileID: 0}
-  dialog: kalispera
-  playerInRange: 0
+  dialog: test

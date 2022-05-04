@@ -441,6 +441,7 @@ MonoBehaviour:
   numberOfFlashes: 4
   triggerCollider: {fileID: 7278941369074768570}
   mySprite: {fileID: 7278941369074768564}
+  transition: {fileID: 0}
 --- !u!95 &7278941369074768569
 Animator:
   serializedVersion: 3

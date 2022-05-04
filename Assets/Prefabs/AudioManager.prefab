@@ -47,18 +47,72 @@ MonoBehaviour:
   - name: PlayerSwordSwing
     clip: {fileID: 8300000, guid: 62c329ba7c80f494bb364f94e9a2fc39, type: 3}
     volume: 0.5
-    pitch: 1.49
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Theme
-    clip: {fileID: 8300000, guid: 515e652d7fd0a3f4fa81fb94f24c8c5d, type: 3}
+    clip: {fileID: 8300000, guid: ae33750446c1321459aaf9c1e86ab1c7, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Arrow
+    clip: {fileID: 8300000, guid: 24a6076a8ea61e24d9f3fe117b81f616, type: 3}
     volume: 0.5
-    pitch: 1.49
+    pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: Enemy
-    clip: {fileID: 8300000, guid: 65726ab859fe0b64b97604f817c45479, type: 3}
+  - name: PlayerDamaged
+    clip: {fileID: 8300000, guid: 1d66c950f15169540a76e409f0201894, type: 3}
     volume: 0.5
-    pitch: 0.68
-    loop: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FoundItem
+    clip: {fileID: 8300000, guid: 35ecbb8ca22c0c64489fb93e35d6e8d6, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Heart
+    clip: {fileID: 8300000, guid: 064b3b9e3ba9a2443ace7d7475d354ff, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HeartContainer
+    clip: {fileID: 8300000, guid: 569787b988e97574ca7c27160d3e26c9, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Coin
+    clip: {fileID: 8300000, guid: 57be3906f15084649a15fdc955e1d772, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Quiver
+    clip: {fileID: 8300000, guid: 83d57486bb69d6e4a9997d8b808b348a, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pot
+    clip: {fileID: 8300000, guid: e5f050a65e1c1af42a39e87de7377944, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyHit
+    clip: {fileID: 8300000, guid: f5447fb9f40cd5b408003c27e0308e3e, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyDeath
+    clip: {fileID: 8300000, guid: 971e688d7510d7945a0f26507776dc08, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
     source: {fileID: 0}

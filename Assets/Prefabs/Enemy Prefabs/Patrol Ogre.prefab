@@ -436,7 +436,7 @@ MonoBehaviour:
   health: 0
   enemyName: Patrol Ogre
   baseAttack: 0
-  moveSpeed: 1.5
+  moveSpeed: 2
   deathEffect: {fileID: 5531624327952938454, guid: 3e761159547f0a04c847679b68ed6fe5,
     type: 3}
   thisLoot: {fileID: 11400000, guid: 6ca720d1c47962e4097bb074908922d9, type: 2}
@@ -444,7 +444,7 @@ MonoBehaviour:
   roomSignal: {fileID: 0}
   myRigidbody: {fileID: 2644371557703673247}
   target: {fileID: 0}
-  chaseRadius: 5
+  chaseRadius: 4
   attackRadius: 1
   anim: {fileID: 2644371557703673244}
   path:

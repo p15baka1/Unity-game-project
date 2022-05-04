@@ -210,16 +210,18 @@ MonoBehaviour:
   currentState: 0
   maxHealth: {fileID: 11400000, guid: 5762280979b4f16429ca694f318ae6df, type: 2}
   health: 0
-  enemyName: patrol
+  enemyName: Patrol Branchy
   baseAttack: 1
   moveSpeed: 2
   deathEffect: {fileID: 5531624327952938454, guid: 3e761159547f0a04c847679b68ed6fe5,
     type: 3}
-  myRigidbody: {fileID: 0}
+  thisLoot: {fileID: 11400000, guid: 6ca720d1c47962e4097bb074908922d9, type: 2}
+  homePosition: {x: -2.38, y: -12.59}
+  roomSignal: {fileID: 0}
+  myRigidbody: {fileID: 8330806936255769990}
   target: {fileID: 0}
-  chaseRadius: 3
+  chaseRadius: 3.2
   attackRadius: 1
-  homePosition: {fileID: 0}
   anim: {fileID: 0}
   path:
   - {fileID: 0}
