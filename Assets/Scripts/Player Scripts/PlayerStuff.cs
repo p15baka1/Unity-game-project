@@ -27,6 +27,7 @@ public class PlayerStuff : MonoBehaviour
     public SignalSystem reduceArrow;
     public GameObject projectile;
     public Item bow;
+    public Item Sword;
     public Color flashColor;
     public Color regularColor;
     public float flashDuration;
@@ -62,8 +63,11 @@ public class PlayerStuff : MonoBehaviour
             && currentState != PlayerState.attack 
             && currentState != PlayerState.stagger)
         {
-            StartCoroutine(AttackCo());
-            FindObjectOfType<AudioManager>().Play("PlayerSwordSwing");
+            if (playerInventory.ItemCheck(Sword))
+            {
+                StartCoroutine(AttackCo());
+                FindObjectOfType<AudioManager>().Play("PlayerSwordSwing");
+            }
         }
         else if (Input.GetButtonDown("secondary attack")
             && currentState != PlayerState.attack

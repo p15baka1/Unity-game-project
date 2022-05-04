@@ -9,13 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 586246abe1a01e440afba059528cef25, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: b518efe76afcb474ea02a444c0f5dae1, type: 3}
+  m_Name: Sword
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items:
-  - {fileID: 11400000, guid: 1afcf112d994cd24983f66eae1a0bf5e, type: 2}
-  numberOfKeys: 0
-  coins: 0
-  maxArrows: 10
-  currentArrows: 10
+  itemSprite: {fileID: 21300000, guid: 6069e0490cb2cfa459615b393c96e0da, type: 3}
+  itemDescription: You found a sword!
+  isKey: 0

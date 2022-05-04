@@ -791,6 +791,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7278941369074768567, guid: 2a51a6114b74d8147954aa8c0ecbaab5,
         type: 3}
+      propertyPath: Sword
+      value: 
+      objectReference: {fileID: 11400000, guid: 1afcf112d994cd24983f66eae1a0bf5e,
+        type: 2}
+    - target: {fileID: 7278941369074768567, guid: 2a51a6114b74d8147954aa8c0ecbaab5,
+        type: 3}
       propertyPath: transition
       value: 
       objectReference: {fileID: 967322106}
