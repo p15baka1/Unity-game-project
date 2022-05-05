@@ -2333,6 +2333,22 @@ SpriteAtlas:
   - {fileID: -346375827395372046, guid: e7db752c837c50c4fa64c14f96f5f56d, type: 3}
   - {fileID: -1765603907009963289, guid: e7db752c837c50c4fa64c14f96f5f56d, type: 3}
   - {fileID: 21300000, guid: 2a9f1b8ca0d7a994e829a5a70112dc17, type: 3}
+  - {fileID: 8313192275101666890, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: 6392942660395055078, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: -2471222828024832050, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: -2473558328113492415, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: -4024998812222776172, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: -2806111552138343620, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: 3510961553534323332, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: -3404504517724397662, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: -7475637835423824637, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: 2832182264777620431, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: -5319566461742862985, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: 238028381409241362, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: 6512882154080317299, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: 2424956738855978017, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: 3632339573508044482, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
+  - {fileID: 1968488310820304737, guid: 6abcabac5e7dc85459e922f31caf0527, type: 3}
   - {fileID: -5897716728771365424, guid: ab8e47bc03ce4a346ac65d8b37c7c252, type: 3}
   - {fileID: -6281256192378225385, guid: ab8e47bc03ce4a346ac65d8b37c7c252, type: 3}
   - {fileID: 3010598407246709451, guid: ab8e47bc03ce4a346ac65d8b37c7c252, type: 3}
@@ -4654,6 +4670,22 @@ SpriteAtlas:
   - character1_11
   - character1_10
   - shadow-80x70
+  - villager_sprite2_15
+  - villager_sprite2_14
+  - villager_sprite2_6
+  - villager_sprite2_7
+  - villager_sprite2_11
+  - villager_sprite2_4
+  - villager_sprite2_10
+  - villager_sprite2_5
+  - villager_sprite2_13
+  - villager_sprite2_2
+  - villager_sprite2_12
+  - villager_sprite2_3
+  - villager_sprite2_0
+  - villager_sprite2_1
+  - villager_sprite2_8
+  - villager_sprite2_9
   - EvilSoldierAttackSprite_10
   - EvilSoldierAttackSprite_11
   - EvilSoldierAttackSprite_3
