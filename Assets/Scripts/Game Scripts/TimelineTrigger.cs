@@ -25,7 +25,6 @@ public class TimelineTrigger : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            timeline.Stop();
             Destroy(this.gameObject);
         }
     }
