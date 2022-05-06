@@ -154,10 +154,10 @@ RectTransform:
   m_Father: {fileID: 1403564168}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5825001, y: 0.748}
-  m_AnchorMax: {x: 0.96875, y: 0.95300007}
-  m_AnchoredPosition: {x: 0, y: -0.000030517578}
-  m_SizeDelta: {x: 0, y: -0.000015258789}
+  m_AnchorMin: {x: 0.5825001, y: 0.027776187}
+  m_AnchorMax: {x: 0.9737501, y: 0.25222382}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -0.000030517578, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &84983461
 MonoBehaviour:
@@ -981,6 +981,12 @@ PrefabInstance:
       propertyPath: chaseRadius
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8330806936255769989, guid: d22992889c29ff140a894edc0b8e2ea7,
+        type: 3}
+      propertyPath: deathEffect
+      value: 
+      objectReference: {fileID: 5531624327952938454, guid: 3e761159547f0a04c847679b68ed6fe5,
+        type: 3}
     - target: {fileID: 8330806936255769989, guid: d22992889c29ff140a894edc0b8e2ea7,
         type: 3}
       propertyPath: attackRadius
