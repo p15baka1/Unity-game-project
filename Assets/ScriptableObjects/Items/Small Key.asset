@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b518efe76afcb474ea02a444c0f5dae1, type: 3}
   m_Name: Small Key
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 21300000, guid: 69e4cf6e785ded34ebde3bc3c8007658, type: 3}
+  itemSprite: {fileID: 21300000, guid: 5c774953380f9df4bbc14ba102b9e4e1, type: 3}
   itemDescription: You found a key!
   isKey: 1
