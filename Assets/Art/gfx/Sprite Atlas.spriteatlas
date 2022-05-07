@@ -962,7 +962,6 @@ SpriteAtlas:
   - {fileID: 162598280021495188, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: 5665061686044825319, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: -2423481899111520116, guid: 0aab33277665a734ba2572470ced104d, type: 3}
-  - {fileID: -1820069552554481430, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: 1242996465418633367, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: -7433372280608533318, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: 8772211705815363909, guid: 0aab33277665a734ba2572470ced104d, type: 3}
@@ -1402,6 +1401,7 @@ SpriteAtlas:
   - {fileID: -2828406249762624735, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: -7922374503034443946, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: -3567850828559431465, guid: 0aab33277665a734ba2572470ced104d, type: 3}
+  - {fileID: -1820069552554481430, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: -6378622306130746880, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: 4923654984070269609, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: -6107176121465585603, guid: 0aab33277665a734ba2572470ced104d, type: 3}
@@ -1549,7 +1549,6 @@ SpriteAtlas:
   - {fileID: 5625320603513752710, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: -2967617129132919076, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: -191729290340861241, guid: 0aab33277665a734ba2572470ced104d, type: 3}
-  - {fileID: 4003859095993293133, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: -5038225484044859109, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: 14683392635615614, guid: 0aab33277665a734ba2572470ced104d, type: 3}
   - {fileID: -8721705435041187115, guid: 0aab33277665a734ba2572470ced104d, type: 3}
@@ -3293,7 +3292,6 @@ SpriteAtlas:
   - Overworld_595
   - Overworld_581
   - Overworld_65
-  - Overworld_71
   - Overworld_15
   - Overworld_256
   - Overworld_224
@@ -3733,6 +3731,7 @@ SpriteAtlas:
   - Overworld_652
   - Overworld_1017
   - Overworld_651
+  - barrel
   - Overworld_1014
   - Overworld_650
   - Overworld_1015
@@ -3880,7 +3879,6 @@ SpriteAtlas:
   - Overworld_407
   - Overworld_417
   - Overworld_23
-  - Overworld_33
   - Overworld_468
   - Overworld_404
   - Overworld_416

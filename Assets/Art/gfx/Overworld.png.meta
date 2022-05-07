@@ -217,7 +217,7 @@ TextureImporter:
     second: Overworld_70
   - first:
       213: -1820069552554481430
-    second: Overworld_71
+    second: barrel
   - first:
       213: -7109326488693626791
     second: Overworld_72
@@ -3999,27 +3999,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_33
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 560
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d49956b62a0909730800000000000000
-      internalID: 4003859095993293133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Overworld_34
       rect:
         serializedVersion: 2
@@ -4797,13 +4776,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_71
+      name: barrel
       rect:
         serializedVersion: 2
         x: 528
-        y: 544
+        y: 548
         width: 16
-        height: 16
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
