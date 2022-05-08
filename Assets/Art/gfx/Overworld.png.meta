@@ -6880,9 +6880,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 496
+        y: 485
         width: 16
-        height: 16
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7669,27 +7669,6 @@ TextureImporter:
       bones: []
       spriteID: 999a6839048645690800000000000000
       internalID: -7614346443414394471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Overworld_209
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 480
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e87d91d042e9e1270800000000000000
-      internalID: 8223183847300913038
       vertices: []
       indices: 
       edges: []

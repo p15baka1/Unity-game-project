@@ -18,6 +18,7 @@ public class Door : Interactable
     public Inventory playerInventory;
     public SpriteRenderer doorSprite;
     public BoxCollider2D physicsCollider;
+    public BoxCollider2D trigger;
 
 
     private void Update()
@@ -48,6 +49,7 @@ public class Door : Interactable
         open = true;
         //turn off the door's box collider
         physicsCollider.enabled = false;
+        trigger.enabled = false;
     }
 
     public void Close()
