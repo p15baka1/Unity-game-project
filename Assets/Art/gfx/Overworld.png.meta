@@ -6880,9 +6880,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 485
+        y: 496
         width: 16
-        height: 27
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6901,9 +6901,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 272
-        y: 496
+        y: 484
         width: 16
-        height: 16
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7677,7 +7677,7 @@ TextureImporter:
       name: Overworld_210
       rect:
         serializedVersion: 2
-        x: 272
+        x: 256
         y: 480
         width: 16
         height: 16
