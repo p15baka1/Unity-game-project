@@ -578,6 +578,15 @@ SpriteAtlas:
   - {fileID: -6793264534013779609, guid: 645538559f533e2479e86e6f01e92781, type: 3}
   - {fileID: 8835560498586911023, guid: 645538559f533e2479e86e6f01e92781, type: 3}
   - {fileID: 21300000, guid: 6a81fe6579bcfea46a558b430a9770fc, type: 3}
+  - {fileID: -1816310346787343975, guid: ed2f4695718cb3042917b895e5b43a4b, type: 3}
+  - {fileID: -483701132150301932, guid: ed2f4695718cb3042917b895e5b43a4b, type: 3}
+  - {fileID: -1418337172490520322, guid: ed2f4695718cb3042917b895e5b43a4b, type: 3}
+  - {fileID: -5169211632484074037, guid: ed2f4695718cb3042917b895e5b43a4b, type: 3}
+  - {fileID: -724989685913798689, guid: ed2f4695718cb3042917b895e5b43a4b, type: 3}
+  - {fileID: -1413066177949612736, guid: ed2f4695718cb3042917b895e5b43a4b, type: 3}
+  - {fileID: -3299575196102190354, guid: ed2f4695718cb3042917b895e5b43a4b, type: 3}
+  - {fileID: 1139758657015400643, guid: ed2f4695718cb3042917b895e5b43a4b, type: 3}
+  - {fileID: 5742894091437803944, guid: ed2f4695718cb3042917b895e5b43a4b, type: 3}
   - {fileID: 21300000, guid: 8f7315c5368c2bf44bb2fc365ad2986e, type: 3}
   - {fileID: 21300000, guid: 6f7127d5a3002bf4aaf49318ca449847, type: 3}
   - {fileID: 21300000, guid: 3ddad126a39182242a831769a92c1dcb, type: 3}
@@ -2982,6 +2991,15 @@ SpriteAtlas:
   - SoldierAttackSprite_8
   - SoldierAttackSprite_10
   - Item__70
+  - villager_dead_8
+  - villager_dead_7
+  - villager_dead_6
+  - villager_dead_5
+  - villager_dead_4
+  - villager_dead_3
+  - villager_dead_2
+  - villager_dead_1
+  - villager_dead_0
   - Item__24
   - arrow
   - Item__16
