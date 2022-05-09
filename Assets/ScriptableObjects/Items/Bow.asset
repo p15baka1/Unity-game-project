@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Bow
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: fdbaedbf9b6ee0445ae586bc5f97fcb1, type: 3}
-  itemDescription: You found a Bow!
+  itemDescription: You found a Bow! Press the right mouse button to attack!
   isKey: 0
