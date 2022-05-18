@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum DoorType
 {
@@ -19,15 +20,27 @@ public class Door : Interactable
     public SpriteRenderer doorSprite;
     public BoxCollider2D physicsCollider;
     public BoxCollider2D trigger;
+    public GameObject dialogBox;
+    public Text dialogText;
+    public string dialog;
 
 
-    private void Update()
+    public virtual void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (playerInRange && thisDoorType == DoorType.key)
             {
                 //does the player have a key?
+                if (dialogBox.activeInHierarchy)
+                {
+                    dialogBox.SetActive(false);
+                }
+                else
+                {
+                    dialogBox.SetActive(true);
+                    dialogText.text = dialog;
+                }
                 FindObjectOfType<AudioManager>().Play("KeyDoorClosed");
                 if (playerInventory.numberOfKeys > 0)
                 {
@@ -60,5 +73,15 @@ public class Door : Interactable
         open = false;
         //turn on the door's box collider
         physicsCollider.enabled = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger)
+        {
+            clue.Raise();
+            playerInRange = false;
+            dialogBox.SetActive(false);
+        }
     }
 }

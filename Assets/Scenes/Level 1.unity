@@ -21979,9 +21979,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4716009499327625575, guid: 8721098cc5e4e5c4abec1d9a87fac562,
         type: 3}
+      propertyPath: dialog
+      value: Locked. Maybe there is a key nearby..
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716009499327625575, guid: 8721098cc5e4e5c4abec1d9a87fac562,
+        type: 3}
       propertyPath: trigger
       value: 
       objectReference: {fileID: 261071083}
+    - target: {fileID: 4716009499327625575, guid: 8721098cc5e4e5c4abec1d9a87fac562,
+        type: 3}
+      propertyPath: dialogBox
+      value: 
+      objectReference: {fileID: 84983459}
+    - target: {fileID: 4716009499327625575, guid: 8721098cc5e4e5c4abec1d9a87fac562,
+        type: 3}
+      propertyPath: dialogText
+      value: 
+      objectReference: {fileID: 282602186}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8721098cc5e4e5c4abec1d9a87fac562, type: 3}
 --- !u!1001 &1624416360
