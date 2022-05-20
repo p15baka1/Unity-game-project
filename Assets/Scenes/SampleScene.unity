@@ -2574,6 +2574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1430434351}
+  animator: {fileID: 2125440041}
 --- !u!4 &723870675
 Transform:
   m_ObjectHideFlags: 0
@@ -5288,8 +5289,9 @@ GameObject:
   - component: {fileID: 2125440038}
   - component: {fileID: 2125440040}
   - component: {fileID: 2125440039}
+  - component: {fileID: 2125440041}
   m_Layer: 5
-  m_Name: dialog box test
+  m_Name: dialog box tutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5354,6 +5356,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125440037}
   m_CullTransparentMesh: 0
+--- !u!95 &2125440041
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125440037}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8ac9b30d427c6284abed8598e9301900, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &380803846084013065
 PrefabInstance:
   m_ObjectHideFlags: 0
