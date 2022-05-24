@@ -104,6 +104,7 @@ SpriteAtlas:
   - {fileID: 8627847960000431974, guid: e7ea37409bda3334e9c588cea16e8565, type: 3}
   - {fileID: 21300000, guid: 872f53c0a22d9c840839250d4308780e, type: 3}
   - {fileID: 21300000, guid: b78719d0c407b9f4e90d34e8ca383629, type: 3}
+  - {fileID: 21300000, guid: 9eda59d0d1f2b804499c362da2d3345b, type: 3}
   - {fileID: 21300000, guid: 3987d9e0c0809ee448a0bc783799c4a9, type: 3}
   - {fileID: 21300000, guid: 6e3b91f08b35b4440abb5a6e2a122b11, type: 3}
   - {fileID: 21300000, guid: 94d29bf02bcd1864dbc151c8eb73d70e, type: 3}
@@ -565,6 +566,7 @@ SpriteAtlas:
   - {fileID: 979085668387324139, guid: 03788bd4345e67f4da7057337380e0d5, type: 3}
   - {fileID: 21300000, guid: e0d9d015e8bf78945ae69a25075fa890, type: 3}
   - {fileID: 21300000, guid: d469d325eb4aaf348983c5f2381c7d09, type: 3}
+  - {fileID: 21300000, guid: 501f654504ce5494a8f6f9a35a121efa, type: 3}
   - {fileID: 21300000, guid: 5a503b459889d264bbdf58b780d69478, type: 3}
   - {fileID: 21300000, guid: 960fa55520c6d05459b2ed9f201e9ec3, type: 3}
   - {fileID: -5994326244328937702, guid: 645538559f533e2479e86e6f01e92781, type: 3}
@@ -2520,6 +2522,7 @@ SpriteAtlas:
   - orge_8
   - character
   - Item__15
+  - nextLevel
   - disciple-45x51
   - environment_forestbackground
   - Preview
@@ -2981,6 +2984,7 @@ SpriteAtlas:
   - andromalius-openmouth_11
   - Item__71
   - environment_forest_evening
+  - brown_room
   - Item__10
   - arrow_up
   - SoldierAttackSprite_11
