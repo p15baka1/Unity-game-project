@@ -13,6 +13,7 @@ public class TreasureChest : Interactable
     public GameObject dialogBox;
     public Text dialogText;
     private Animator anim;
+    public GameObject minimapMarker;
     
     
     // Start is called before the first frame update
@@ -69,6 +70,7 @@ public class TreasureChest : Interactable
         dialogBox.SetActive(false);
         //raise signal to the player to stop animating
         raiseItem.Raise();
+        minimapMarker.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

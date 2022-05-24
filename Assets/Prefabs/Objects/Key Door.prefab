@@ -186,3 +186,7 @@ MonoBehaviour:
   playerInventory: {fileID: 11400000, guid: 40173c187382dde4f8e212c2d829d7bf, type: 2}
   doorSprite: {fileID: 4716009499214781804}
   physicsCollider: {fileID: 4716009499214781811}
+  trigger: {fileID: 0}
+  dialogBox: {fileID: 0}
+  dialogText: {fileID: 0}
+  dialog: 
