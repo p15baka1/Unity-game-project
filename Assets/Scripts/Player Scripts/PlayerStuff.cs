@@ -36,6 +36,7 @@ public class PlayerStuff : MonoBehaviour
     public SpriteRenderer mySprite;
 
     public Animator transition;
+    public string gameOverMenu;
 
 
 
@@ -224,6 +225,6 @@ public class PlayerStuff : MonoBehaviour
     {
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("GameOverMenu");
+        SceneManager.LoadScene(gameOverMenu);
     }
 }

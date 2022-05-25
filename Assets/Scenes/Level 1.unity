@@ -21040,6 +21040,11 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 967322106}
+    - target: {fileID: 7278941369074768567, guid: 2a51a6114b74d8147954aa8c0ecbaab5,
+        type: 3}
+      propertyPath: gameOverMenu
+      value: GameOverMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 7278941369074768568, guid: 2a51a6114b74d8147954aa8c0ecbaab5,
         type: 3}
       propertyPath: m_Material
@@ -21804,7 +21809,7 @@ PrefabInstance:
     - target: {fileID: 2269543359194136263, guid: 59743b36a19e8704dbcc9ed02b5df6e9,
         type: 3}
       propertyPath: sceneToLoad
-      value: Demo
+      value: Level 2
       objectReference: {fileID: 0}
     - target: {fileID: 2269543359194136263, guid: 59743b36a19e8704dbcc9ed02b5df6e9,
         type: 3}
