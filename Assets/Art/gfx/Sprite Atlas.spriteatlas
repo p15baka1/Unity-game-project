@@ -156,6 +156,22 @@ SpriteAtlas:
   - {fileID: 2211094218389665130, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
   - {fileID: 7520988204323839609, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
   - {fileID: -247678246039150259, guid: cdf868916c0a02c44aa1767488480fcd, type: 3}
+  - {fileID: 7923068782641648371, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: 1336280577477741282, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: 2361653635858868249, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: 6231655640911351449, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: -5173811895926095757, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: 1750764244339419417, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: 4608042104153447285, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: 3353576118794230034, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: -3336125435268033017, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: 2035333432181746408, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: 8133029615784658731, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: -2195464242433339914, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: -3102141982560906738, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: 6271181634609043507, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: 3336284076427336085, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
+  - {fileID: -8875068109220167493, guid: 3d4377a1327be6b4e82a50fe525cad08, type: 3}
   - {fileID: 21300000, guid: f6aa0ca1bccb84a4cafea88ce612a820, type: 3}
   - {fileID: 1833455966329473441, guid: 803c800226f55ed489588318d5104f7f, type: 3}
   - {fileID: 3933026567825192282, guid: 803c800226f55ed489588318d5104f7f, type: 3}
@@ -2286,6 +2302,22 @@ SpriteAtlas:
   - {fileID: 21300000, guid: c680894aabb8efc4599a31152dbc539d, type: 3}
   - {fileID: 21300000, guid: 7af8ed6a51f5dc14ab713e1a7d19d156, type: 3}
   - {fileID: 21300000, guid: 70bfb1aaaef46474b9fb27c941ee32d1, type: 3}
+  - {fileID: 9179551292926492374, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: -245230370253851640, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: -4717321168382756550, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: 8050069231557457183, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: 6289986290071033426, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: 8716658527045812162, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: 6244822853813594280, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: -4740308485905348516, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: 9068838157069858050, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: -5540533793471924772, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: 7232830758197701814, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: -3377563098621588225, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: 5859244124116242451, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: -7324999765273813020, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: -4672086759790773717, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
+  - {fileID: 6037609028251579198, guid: ef11a5aabb97b874b9ef72168acc5ec3, type: 3}
   - {fileID: 21300000, guid: 6e26cdba18238fc44ba4111c37b8e4ea, type: 3}
   - {fileID: 21300000, guid: 923670eab2804eb48ac317e5b443e828, type: 3}
   - {fileID: 21300000, guid: 10c85eeac339fa74aa8def7d47b7c141, type: 3}
@@ -2691,6 +2723,22 @@ SpriteAtlas:
   - slime_monster_1
   - slime_monster_0
   - slime_monster_8
+  - lava_orge_15
+  - lava_orge_14
+  - lava_orge_11
+  - lava_orge_10
+  - lava_orge_13
+  - lava_orge_12
+  - lava_orge_8
+  - lava_orge_9
+  - lava_orge_6
+  - lava_orge_7
+  - lava_orge_4
+  - lava_orge_5
+  - lava_orge_2
+  - lava_orge_3
+  - lava_orge_0
+  - lava_orge_1
   - Item__21
   - setgridless_34
   - setgridless_35
@@ -4821,6 +4869,22 @@ SpriteAtlas:
   - Item__34
   - Item__27
   - Item__67
+  - lava_orge attack sprites_15
+  - lava_orge attack sprites_14
+  - lava_orge attack sprites_11
+  - lava_orge attack sprites_10
+  - lava_orge attack sprites_13
+  - lava_orge attack sprites_12
+  - lava_orge attack sprites_6
+  - lava_orge attack sprites_7
+  - lava_orge attack sprites_4
+  - lava_orge attack sprites_5
+  - lava_orge attack sprites_2
+  - lava_orge attack sprites_3
+  - lava_orge attack sprites_0
+  - lava_orge attack sprites_1
+  - lava_orge attack sprites_8
+  - lava_orge attack sprites_9
   - Item__03
   - Item__38
   - Item__33
