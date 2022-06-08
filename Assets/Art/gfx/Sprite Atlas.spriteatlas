@@ -2282,6 +2282,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 756d38c98b0c9324397318f9f77b36d4, type: 3}
   - {fileID: 21300000, guid: d3f838f9919a89648aba3b1547609a60, type: 3}
   - {fileID: 21300000, guid: 46a9dd1a8f1b80549b73fae59d305c3a, type: 3}
+  - {fileID: 21300000, guid: d370fe1a8ce62b448b8bf3e431e467c3, type: 3}
   - {fileID: 21300000, guid: c680894aabb8efc4599a31152dbc539d, type: 3}
   - {fileID: 21300000, guid: 7af8ed6a51f5dc14ab713e1a7d19d156, type: 3}
   - {fileID: 21300000, guid: 70bfb1aaaef46474b9fb27c941ee32d1, type: 3}
@@ -4816,6 +4817,7 @@ SpriteAtlas:
   - magic bottle
   - acid2-14x67
   - Item__59
+  - lavaroom
   - Item__34
   - Item__27
   - Item__67
