@@ -9,6 +9,7 @@ public class Switch : MonoBehaviour
     public Sprite activeSprite;
     private SpriteRenderer mySprite;
     public Door thisDoor;
+    public BoxCollider2D trigger;
 
     
     void Start()
@@ -27,6 +28,7 @@ public class Switch : MonoBehaviour
         storedValue.RuntimeValue = active;
         thisDoor.Open();
         mySprite.sprite = activeSprite;
+        trigger.enabled = false;
     }
 
     public void OnTriggerEnter2D(Collider2D other)
