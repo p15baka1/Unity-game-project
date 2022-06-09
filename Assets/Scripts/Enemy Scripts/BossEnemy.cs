@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossEnemy : PatrolLog
+public class BossEnemy : TurretEnemy
 {
 
 }
