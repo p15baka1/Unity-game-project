@@ -15974,7 +15974,7 @@ MonoBehaviour:
   anim: {fileID: 1077500367}
   projectile: {fileID: 953063235793110416, guid: 4e99495ab3f9cda4dae08269d58d6e74,
     type: 3}
-  fireDelay: 1
+  fireDelay: 1.5
   canFire: 1
 --- !u!61 &1077500372
 BoxCollider2D:

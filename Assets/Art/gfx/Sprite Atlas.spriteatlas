@@ -47,6 +47,7 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 4b8b09106840919448df135b4bb72de3, type: 3}
+  - {fileID: 21300000, guid: 3f0c302060986ea418eabee8d22c1c54, type: 3}
   - {fileID: 21300000, guid: ca335420739562049ac0f8c287e2a08a, type: 3}
   - {fileID: 21300000, guid: c08d3e20b1e42c74a99d14c78014efd5, type: 3}
   - {fileID: -1334967419307400008, guid: ca32ee305f865bf4da35e44719e700c9, type: 3}
@@ -108,6 +109,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 3987d9e0c0809ee448a0bc783799c4a9, type: 3}
   - {fileID: 21300000, guid: 6e3b91f08b35b4440abb5a6e2a122b11, type: 3}
   - {fileID: 21300000, guid: 94d29bf02bcd1864dbc151c8eb73d70e, type: 3}
+  - {fileID: 21300000, guid: 25224df0d5c3cab4bb48f865fe7cb1f0, type: 3}
   - {fileID: 9114078935630010517, guid: 09a5a7113438f574abc276238c2fd51d, type: 3}
   - {fileID: -8799995575176783795, guid: 09a5a7113438f574abc276238c2fd51d, type: 3}
   - {fileID: -1469879329949605291, guid: 09a5a7113438f574abc276238c2fd51d, type: 3}
@@ -124,6 +126,7 @@ SpriteAtlas:
   - {fileID: 1777361459721282548, guid: 09a5a7113438f574abc276238c2fd51d, type: 3}
   - {fileID: 2670572250263382453, guid: 09a5a7113438f574abc276238c2fd51d, type: 3}
   - {fileID: 5700767193190630657, guid: 09a5a7113438f574abc276238c2fd51d, type: 3}
+  - {fileID: 21300000, guid: 67eb11218fe6373498bc9577862a36ce, type: 3}
   - {fileID: 623061514530112606, guid: d833bb21176da9842b8ff5e01d58c301, type: 3}
   - {fileID: -2835659152415564855, guid: d833bb21176da9842b8ff5e01d58c301, type: 3}
   - {fileID: 7486680669528004829, guid: d833bb21176da9842b8ff5e01d58c301, type: 3}
@@ -2596,6 +2599,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 6d804fff9d6725341b1a8cd0a50e515b, type: 3}
   m_PackedSpriteNamesToIndex:
   - Item__18
+  - bossattack
   - Item__54
   - Item__60
   - arrow_v1_7
@@ -2657,6 +2661,7 @@ SpriteAtlas:
   - disciple-45x51
   - environment_forestbackground
   - Preview
+  - Fireballs
   - orge attack sprites_9
   - orge attack sprites_8
   - orge attack sprites_3
@@ -2673,6 +2678,7 @@ SpriteAtlas:
   - orge attack sprites_13
   - orge attack sprites_10
   - orge attack sprites_11
+  - Fireballs1
   - villager_sprite_15
   - villager_sprite_14
   - villager_sprite_11
