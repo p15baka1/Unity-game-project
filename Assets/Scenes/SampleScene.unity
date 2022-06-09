@@ -2981,7 +2981,7 @@ PrefabInstance:
     - target: {fileID: 4915021589828459235, guid: c3fc4550b6706984f8d42c8eb59026df,
         type: 3}
       propertyPath: sounds.Array.data[1].volume
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4915021589828459236, guid: c3fc4550b6706984f8d42c8eb59026df,
         type: 3}
@@ -3229,12 +3229,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520172047}
   m_CullTransparentMesh: 0
---- !u!1 &1628624689 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 380803847710473016, guid: 14abc68197ad2734daeb1818e83e88aa,
-    type: 3}
-  m_PrefabInstance: {fileID: 380803846084013065}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1862223772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5474,7 +5468,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FirstSelected
       value: 
-      objectReference: {fileID: 1628624689}
+      objectReference: {fileID: 1294242274}
     - target: {fileID: 4376375589432031223, guid: 6e945ce40d766554b9eb314a1cde7671,
         type: 3}
       propertyPath: m_RootOrder
@@ -5796,6 +5790,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8256994500152658775, guid: 1be047d5cc4aa3442b17d1833223ae18,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 18.487976
       objectReference: {fileID: 0}
     - target: {fileID: 8256994501015799763, guid: 1be047d5cc4aa3442b17d1833223ae18,
         type: 3}

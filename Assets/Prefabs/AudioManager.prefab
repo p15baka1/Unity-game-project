@@ -52,7 +52,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Theme
     clip: {fileID: 8300000, guid: ae33750446c1321459aaf9c1e86ab1c7, type: 3}
-    volume: 0.2
+    volume: 0.1
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -70,13 +70,13 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: FoundItem
     clip: {fileID: 8300000, guid: 35ecbb8ca22c0c64489fb93e35d6e8d6, type: 3}
-    volume: 0.8
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Heart
     clip: {fileID: 8300000, guid: 064b3b9e3ba9a2443ace7d7475d354ff, type: 3}
-    volume: 0.8
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -100,19 +100,19 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Pot
     clip: {fileID: 8300000, guid: e5f050a65e1c1af42a39e87de7377944, type: 3}
-    volume: 0.8
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: EnemyHit
     clip: {fileID: 8300000, guid: f5447fb9f40cd5b408003c27e0308e3e, type: 3}
-    volume: 0.8
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: EnemyDeath
     clip: {fileID: 8300000, guid: 971e688d7510d7945a0f26507776dc08, type: 3}
-    volume: 1
+    volume: 0.8
     pitch: 1
     loop: 0
     source: {fileID: 0}
