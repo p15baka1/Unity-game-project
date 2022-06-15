@@ -343,9 +343,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7bb468776b60274c83da86978fa9f8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
+  thrust: 4
   knockTime: 0.2
-  damage: 3
+  damage: 2
 --- !u!60 &3484801460882533421
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -421,9 +421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7bb468776b60274c83da86978fa9f8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
+  thrust: 4
   knockTime: 0.2
-  damage: 3
+  damage: 2
 --- !u!60 &3484801461340862538
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -499,9 +499,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7bb468776b60274c83da86978fa9f8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
+  thrust: 4
   knockTime: 0.2
-  damage: 3
+  damage: 2
 --- !u!60 &3484801461879083150
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -577,9 +577,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7bb468776b60274c83da86978fa9f8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
+  thrust: 4
   knockTime: 0.2
-  damage: 3
+  damage: 2
 --- !u!60 &3484801462281273726
 PolygonCollider2D:
   m_ObjectHideFlags: 0
