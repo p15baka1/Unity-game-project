@@ -30,14 +30,14 @@ public class TreasureChest : Interactable
     // Update is called once per frame
     void Update()
     {
-        if (playerInRange)
+        if (Input.GetKeyDown(KeyCode.E) && playerInRange)
         {
-            if (Input.GetKeyDown(KeyCode.E) &&!isOpen)
+            if (!isOpen)
             {
                 //open the chest
                 OpenChest();
             }
-            else if(Input.GetButtonDown("Vertical") || Input.GetButtonDown("Horizontal"))
+            else
             {
                 //chest is already open
                 ChestAlreadyOpen();
