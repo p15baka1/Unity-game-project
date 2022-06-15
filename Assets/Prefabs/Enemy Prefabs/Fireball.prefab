@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 953063235793110419}
   - component: {fileID: 953063235793110418}
   - component: {fileID: 953063235793110417}
-  - component: {fileID: 4456229902760473730}
+  - component: {fileID: 6337883859792902093}
   m_Layer: 9
   m_Name: Fireball
   m_TagString: Untagged
@@ -75,7 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 982894907
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 555893004710906980, guid: f02ce7a25fbcbd441b1800fd2bfce195, type: 3}
+  m_Sprite: {fileID: 7678839686724372523, guid: c46bb50daed6d2e4cbfc447fd6c5bec7,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -150,8 +151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifetime: 0.5
---- !u!60 &4456229902760473730
-PolygonCollider2D:
+--- !u!58 &6337883859792902093
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -163,47 +164,6 @@ PolygonCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1.875}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.017979145, y: -2.2296495}
-      - {x: -0.1323762, y: -2.3248813}
-      - {x: 0.004412651, y: -2.4380927}
-      - {x: 0.16655684, y: -2.5011854}
-      - {x: 0.38797426, y: -2.507376}
-      - {x: 0.5259485, y: -2.4386854}
-      - {x: 0.46404123, y: -2.2116704}
-      - {x: 0.24618006, y: -2.1801238}
-    - - {x: 0.37559223, y: -0.6052425}
-      - {x: 0.017979622, y: -0.6857221}
-      - {x: -0.14475727, y: -0.7809539}
-      - {x: 0.004412651, y: -0.86940217}
-      - {x: 0.14357185, y: -0.95106673}
-      - {x: 0.39416456, y: -0.92630386}
-      - {x: 0.51975775, y: -0.8378556}
-      - {x: 0.4454689, y: -0.65536094}
-    - - {x: 0.06893206, y: 0.9062538}
-      - {x: -0.12132692, y: 0.80330896}
-      - {x: -0.001844883, y: 0.69576836}
-      - {x: 0.12849522, y: 0.6383786}
-      - {x: 0.2803235, y: 0.61948204}
-      - {x: 0.49173164, y: 0.6378641}
-      - {x: 0.45496798, y: 0.9126859}
-      - {x: 0.32261324, y: 0.94761324}
-    - - {x: 0.046242714, y: 2.4554424}
-      - {x: -0.13439274, y: 2.363439}
-      - {x: -0.06803942, y: 2.2838397}
-      - {x: 0.14426804, y: 2.1858144}
-      - {x: 0.4314785, y: 2.1858144}
-      - {x: 0.51709986, y: 2.249157}
-      - {x: 0.45929623, y: 2.4777212}
-      - {x: 0.3951106, y: 2.5016856}
+  m_Offset: {x: 0, y: -0.007950306}
+  serializedVersion: 2
+  m_Radius: 0.27042818
