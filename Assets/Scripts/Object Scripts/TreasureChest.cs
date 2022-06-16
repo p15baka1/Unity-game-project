@@ -34,18 +34,12 @@ public class TreasureChest : Interactable
         {
             if (!isOpen)
             {
-                //open the chest
-                OpenChest();
-            }
-            else
-            {
-                //chest is already open
-                ChestAlreadyOpen();
+                StartCoroutine(OpenChestCo());
             }
         }
     }
 
-    public void OpenChest()
+    private IEnumerator OpenChestCo()
     {
         //dialog window on
         dialogBox.SetActive(true);
@@ -62,6 +56,8 @@ public class TreasureChest : Interactable
         isOpen = true;
         anim.SetBool("opened", true);
         storedOpen.RuntimeValue = isOpen;
+        yield return new WaitForSeconds(4f);
+        ChestAlreadyOpen();
     }
     private void ChestAlreadyOpen()
     {
