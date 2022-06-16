@@ -8321,7 +8321,7 @@ PrefabInstance:
     - target: {fileID: 2269543359194136263, guid: 59743b36a19e8704dbcc9ed02b5df6e9,
         type: 3}
       propertyPath: sceneToLoad
-      value: Demo
+      value: Level Bossfight
       objectReference: {fileID: 0}
     - target: {fileID: 2269543359194136263, guid: 59743b36a19e8704dbcc9ed02b5df6e9,
         type: 3}
@@ -36095,7 +36095,7 @@ Tilemap:
       - {fileID: -8904985874043957587, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -731699197640244029, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: 8040628876573610616, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 0, y: 17, z: 0}
@@ -36131,7 +36131,7 @@ Tilemap:
       - {fileID: -8904985874043957587, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -731699197640244029, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: 8040628876573610616, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -5, y: 21, z: 0}
@@ -36215,7 +36215,7 @@ Tilemap:
       - {fileID: -8904985874043957587, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -731699197640244029, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: 8040628876573610616, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -26, y: 25, z: 0}
@@ -36299,7 +36299,7 @@ Tilemap:
       - {fileID: -8904985874043957587, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -731699197640244029, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: 8040628876573610616, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 19, y: 30, z: 0}
@@ -36563,7 +36563,7 @@ Tilemap:
       - {fileID: -8904985874043957587, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -731699197640244029, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: 8040628876573610616, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -23, y: 43, z: 0}

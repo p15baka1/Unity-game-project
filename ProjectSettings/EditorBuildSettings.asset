@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: 9432d4e4138830f46952d27477c3fbb3
   - enabled: 1
+    path: Assets/Scenes/Level Bossfight.unity
+    guid: 1ef2e5a5522382d41b7670f88a3cb099
+  - enabled: 1
     path: Assets/Scenes/GameOverMenu.unity
     guid: b52e2d6499c38d24cb181a3432a9ba15
   - enabled: 1
