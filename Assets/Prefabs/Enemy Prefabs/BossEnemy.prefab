@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 817863494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 8192616881551974828}
   m_RootOrder: 0
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 72b48c2932456d047a599cc7e2f7a5da, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 6069e0490cb2cfa459615b393c96e0da, type: 3}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -223,7 +223,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012453914, y: 0.07356739}
+  m_Offset: {x: 0.027497053, y: 0.2691307}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -234,7 +234,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.17405, y: 4.6305733}
+  m_Size: {x: 2.8430982, y: 4.4801407}
   m_EdgeRadius: 0
 --- !u!61 &8192616881551974826
 BoxCollider2D:
@@ -249,7 +249,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.024482012, y: -1.2640138}
+  m_Offset: {x: 0.08834261, y: 0.8721323}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -260,7 +260,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.3713136, y: 1.7146482}
+  m_Size: {x: 1.7244531, y: 2.526991}
   m_EdgeRadius: 0
 --- !u!114 &8192616881551974829
 MonoBehaviour:
@@ -279,7 +279,7 @@ MonoBehaviour:
   health: 0
   enemyName: boss
   baseAttack: 0
-  moveSpeed: 2
+  moveSpeed: 4
   deathEffect: {fileID: 5531624327952938454, guid: 3e761159547f0a04c847679b68ed6fe5,
     type: 3}
   thisLoot: {fileID: 11400000, guid: 312b7edfe53f7f84b961c22815fb0342, type: 2}
@@ -287,7 +287,7 @@ MonoBehaviour:
   roomSignal: {fileID: 0}
   myRigidbody: {fileID: 8192616881551974830}
   target: {fileID: 0}
-  chaseRadius: 8
+  chaseRadius: 12
   attackRadius: 1
   anim: {fileID: 8192616881551974833}
 --- !u!114 &8192616881551974824
