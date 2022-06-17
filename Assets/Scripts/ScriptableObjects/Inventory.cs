@@ -15,6 +15,7 @@ public class Inventory : ScriptableObject
     public void OnEnable()
     {
         currentArrows = maxArrows;
+        hideFlags = HideFlags.DontUnloadUnusedAsset;
     }
 
     public void ReduceArrows(float arrowCost)

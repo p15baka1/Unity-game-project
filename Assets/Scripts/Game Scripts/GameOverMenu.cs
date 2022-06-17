@@ -18,6 +18,11 @@ public class GameOverMenu : MonoBehaviour
         SceneManager.LoadScene("Level 2");
     }
 
+    public void RetryBossLevel()
+    {
+        SceneManager.LoadScene("Level Bossfight");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
