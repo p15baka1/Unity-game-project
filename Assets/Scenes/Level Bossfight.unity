@@ -223,6 +223,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 380803846138320282, guid: 14abc68197ad2734daeb1818e83e88aa,
+        type: 3}
+      propertyPath: resetLevel
+      value: Level Bossfight
+      objectReference: {fileID: 0}
     - target: {fileID: 380803846138320283, guid: 14abc68197ad2734daeb1818e83e88aa,
         type: 3}
       propertyPath: m_Name
@@ -6479,7 +6484,7 @@ Tilemap:
       - {fileID: 8669424947756014885, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -3819386770070218087, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -5211622096706097164, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 9, y: 15, z: 0}
@@ -6577,7 +6582,7 @@ Tilemap:
       - {fileID: 8669424947756014885, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -3819386770070218087, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -5211622096706097164, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -10, y: 19, z: 0}
@@ -6633,7 +6638,7 @@ Tilemap:
       - {fileID: 8669424947756014885, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -3819386770070218087, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -5211622096706097164, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -10, y: 21, z: 0}
@@ -6913,7 +6918,7 @@ Tilemap:
       - {fileID: 8669424947756014885, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -3819386770070218087, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -5211622096706097164, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -10, y: 31, z: 0}
