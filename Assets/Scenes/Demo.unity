@@ -1337,6 +1337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfded0bec5aa75846a696ae42588cc8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerupSignal: {fileID: 11400000, guid: cb10d3c8742d66149b4eda2b2cedd358, type: 2}
   playerInventory: {fileID: 11400000, guid: 40173c187382dde4f8e212c2d829d7bf, type: 2}
   coinDisplay: {fileID: 4355004901196529845}
 --- !u!224 &4355004900802239812
