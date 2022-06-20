@@ -23850,6 +23850,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3165858965964191259, guid: 00177bf99100a6d4cb22306df51f0e6d,
         type: 3}
+      propertyPath: attackRadius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165858965964191259, guid: 00177bf99100a6d4cb22306df51f0e6d,
+        type: 3}
       propertyPath: homePosition.y
       value: -14
       objectReference: {fileID: 0}
