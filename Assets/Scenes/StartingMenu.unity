@@ -942,6 +942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2869db5b80cb0fe48b51b361f6206f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInventory: {fileID: 11400000, guid: 40173c187382dde4f8e212c2d829d7bf, type: 2}
+  bow: {fileID: 11400000, guid: e9e3d74937a1435459f920564dc1b7d1, type: 2}
 --- !u!1001 &1613804071
 PrefabInstance:
   m_ObjectHideFlags: 0

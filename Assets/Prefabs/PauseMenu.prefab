@@ -115,6 +115,8 @@ MonoBehaviour:
   pausePanel: {fileID: 380803846334745331}
   mainMenu: StartingMenu
   resetLevel: 
+  hearts: {fileID: 11400000, guid: dda9b1b6ce38d804fbe754dc7cb8ffaa, type: 2}
+  heartCont: {fileID: 11400000, guid: f18db44436b63674d95f812ca7de23e4, type: 2}
 --- !u!1 &380803846165720698
 GameObject:
   m_ObjectHideFlags: 0
