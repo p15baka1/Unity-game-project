@@ -8,6 +8,7 @@ public class Sign : Interactable
     
     public GameObject dialogBox;
     public Text dialogText;
+    [TextArea(3, 10)]
     public string dialog;
     
     // Start is called before the first frame update
