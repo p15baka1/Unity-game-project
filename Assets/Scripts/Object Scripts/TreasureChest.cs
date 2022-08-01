@@ -56,7 +56,7 @@ public class TreasureChest : Interactable
         isOpen = true;
         anim.SetBool("opened", true);
         storedOpen.RuntimeValue = isOpen;
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(5f);
         ChestAlreadyOpen();
     }
     private void ChestAlreadyOpen()
