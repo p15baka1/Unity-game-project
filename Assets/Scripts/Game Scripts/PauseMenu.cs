@@ -11,7 +11,7 @@ public class PauseMenu : MonoBehaviour
     public string mainMenu;
     public string resetLevel;
     public FloatValue hearts;
-    public FloatValue heartCont;
+    public FloatValue heartContainer;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +53,6 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(resetLevel);
         Time.timeScale = 1f;
         hearts.RuntimeValue = hearts.initialValue;
-        heartCont.RuntimeValue = heartCont.initialValue;
+        heartContainer.RuntimeValue = heartContainer.initialValue;
     }
 }
