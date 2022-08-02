@@ -3561,8 +3561,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 804677282, guid: 9163d55ea68bfc04ab64903212619f64, type: 3}
       propertyPath: dialog
-      value: Inside the next room is the demons that brought this curse in this land.
-        I wish you good luck and i hope you put an end to this madness.
+      value: "In the next room, you'll find the creatures that brought the curse
+        upon this land. \nI tried to stop them but failed. \nI wish you good luck
+        when facing them."
       objectReference: {fileID: 0}
     - target: {fileID: 804677282, guid: 9163d55ea68bfc04ab64903212619f64, type: 3}
       propertyPath: dialogBox
@@ -6498,7 +6499,7 @@ Tilemap:
       - {fileID: 8669424947756014885, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -3819386770070218087, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -5211622096706097164, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 9, y: 0, z: 0}
@@ -6694,7 +6695,7 @@ Tilemap:
       - {fileID: 8669424947756014885, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -3819386770070218087, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -5211622096706097164, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 9, y: 7, z: 0}
@@ -7044,7 +7045,7 @@ Tilemap:
       - {fileID: 8669424947756014885, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -3819386770070218087, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -5211622096706097164, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -10, y: 20, z: 0}
@@ -24011,7 +24012,7 @@ Tilemap:
       - {fileID: 8669424947756014885, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -3819386770070218087, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -5211622096706097164, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 10, y: 12, z: 0}

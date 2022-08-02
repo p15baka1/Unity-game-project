@@ -1111,7 +1111,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Made by Nick Bak
+  m_Text: Made by Nikos Bak
 --- !u!222 &1635738182
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1283,7 +1283,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Thanks for playing the Curse of the Forest!
+  m_Text: Thanks for playing the Forest Curse!
 --- !u!222 &2042747126
 CanvasRenderer:
   m_ObjectHideFlags: 0

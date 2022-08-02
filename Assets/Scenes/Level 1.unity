@@ -130,7 +130,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 804677282, guid: 9163d55ea68bfc04ab64903212619f64, type: 3}
       propertyPath: dialog
-      value: Something is happening in the old cave.. i saw many soldiers going in!
+      value: Something is happening in the old cave of lava.. i saw many soldiers
+        going in!
       objectReference: {fileID: 0}
     - target: {fileID: 804677282, guid: 9163d55ea68bfc04ab64903212619f64, type: 3}
       propertyPath: dialogBox
@@ -1346,7 +1347,7 @@ PrefabInstance:
         type: 3}
       propertyPath: thisLoot
       value: 
-      objectReference: {fileID: 11400000, guid: 312b7edfe53f7f84b961c22815fb0342,
+      objectReference: {fileID: 11400000, guid: e8d5b5f15cd290c48a26f22d4b25876e,
         type: 2}
     - target: {fileID: 7457961105000041959, guid: d7e13387faad1ee47bfe885d73abae7d,
         type: 3}
@@ -20544,7 +20545,7 @@ PrefabInstance:
         type: 3}
       propertyPath: thisLoot
       value: 
-      objectReference: {fileID: 11400000, guid: 312b7edfe53f7f84b961c22815fb0342,
+      objectReference: {fileID: 11400000, guid: 6ca720d1c47962e4097bb074908922d9,
         type: 2}
     - target: {fileID: 7457961105000041959, guid: d7e13387faad1ee47bfe885d73abae7d,
         type: 3}
@@ -21222,7 +21223,7 @@ PrefabInstance:
         type: 3}
       propertyPath: thisLoot
       value: 
-      objectReference: {fileID: 11400000, guid: 312b7edfe53f7f84b961c22815fb0342,
+      objectReference: {fileID: 11400000, guid: 6ca720d1c47962e4097bb074908922d9,
         type: 2}
     - target: {fileID: 7457961105000041959, guid: d7e13387faad1ee47bfe885d73abae7d,
         type: 3}
@@ -21749,7 +21750,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 804677282, guid: 9163d55ea68bfc04ab64903212619f64, type: 3}
       propertyPath: dialog
-      value: Heart of the Forest
+      value: Cave of lava ahead
       objectReference: {fileID: 0}
     - target: {fileID: 804677282, guid: 9163d55ea68bfc04ab64903212619f64, type: 3}
       propertyPath: dialogBox
@@ -22380,7 +22381,7 @@ PrefabInstance:
         type: 3}
       propertyPath: thisLoot
       value: 
-      objectReference: {fileID: 11400000, guid: 312b7edfe53f7f84b961c22815fb0342,
+      objectReference: {fileID: 11400000, guid: e8d5b5f15cd290c48a26f22d4b25876e,
         type: 2}
     - target: {fileID: 7457961105000041959, guid: d7e13387faad1ee47bfe885d73abae7d,
         type: 3}
