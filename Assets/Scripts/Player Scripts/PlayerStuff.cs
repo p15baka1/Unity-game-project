@@ -45,7 +45,7 @@ public class PlayerStuff : MonoBehaviour
         currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
-        animator.SetFloat("moveX", 0);
+        animator.SetFloat("moveX", 0); //to fix the issue with the hitboxes that were enabled all at once
         animator.SetFloat("moveY", -1);
         //transform.position = startingPosition.initialValue;
     }
@@ -80,7 +80,7 @@ public class PlayerStuff : MonoBehaviour
                 FindObjectOfType<AudioManager>().Play("Arrow");
             }
         }
-        else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
+        else if (currentState == PlayerState.walk || currentState == PlayerState.idle) //stop moving when attacking
         {
             UpdateAnimationAndMove();
         }
