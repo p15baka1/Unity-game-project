@@ -14,6 +14,8 @@ public class GameOverMenu : MonoBehaviour
     public void RetryLevel1()
     {
         SceneManager.LoadScene("Level 1");
+        hearts.RuntimeValue = 6;
+        heartContainer.RuntimeValue = 3;
     }
 
     public void RetryLevel2()
