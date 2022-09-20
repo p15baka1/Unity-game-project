@@ -1354,18 +1354,23 @@ PrefabInstance:
     - target: {fileID: 2569869724245014412, guid: 7e462cefe2ccc6749a579d79b67d5dfd,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2569869724245014412, guid: 7e462cefe2ccc6749a579d79b67d5dfd,
         type: 3}
       propertyPath: enemies.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2569869724245014412, guid: 7e462cefe2ccc6749a579d79b67d5dfd,
         type: 3}
       propertyPath: enemies.Array.data[0]
       value: 
       objectReference: {fileID: 1942778218}
+    - target: {fileID: 2569869724245014412, guid: 7e462cefe2ccc6749a579d79b67d5dfd,
+        type: 3}
+      propertyPath: enemies.Array.data[1]
+      value: 
+      objectReference: {fileID: 983323841}
     - target: {fileID: 2569869724245014413, guid: 7e462cefe2ccc6749a579d79b67d5dfd,
         type: 3}
       propertyPath: m_RootOrder
@@ -4196,57 +4201,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &707792367 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2569869724245014403, guid: 7e462cefe2ccc6749a579d79b67d5dfd,
-    type: 3}
-  m_PrefabInstance: {fileID: 401492542}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &707792370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707792367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e141e77e28a0b3498956226ce662dd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemies:
-  - {fileID: 1942778218}
-  - {fileID: 983323841}
-  pots: []
-  virtualCamera: {fileID: 1142741822}
-  doors: []
---- !u!114 &707792371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707792367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fed16ef43fb9ac74294c7054627e36bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  signal: {fileID: 11400000, guid: 50ff3ec956ffe1046810aa3261bd5726, type: 2}
-  signalEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 707792370}
-        m_MethodName: CheckEnemies
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &719377032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5783,12 +5737,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2569869724245014413, guid: 7e462cefe2ccc6749a579d79b67d5dfd,
     type: 3}
   m_PrefabInstance: {fileID: 1120052192}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1142741822 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2569869725479491642, guid: 7e462cefe2ccc6749a579d79b67d5dfd,
-    type: 3}
-  m_PrefabInstance: {fileID: 401492542}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1155384934
 GameObject:
@@ -37021,7 +36969,7 @@ Tilemap:
       - {fileID: -8904985874043957587, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -731699197640244029, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: 8040628876573610616, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -7, y: 17, z: 0}
@@ -37057,7 +37005,7 @@ Tilemap:
       - {fileID: -8904985874043957587, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -731699197640244029, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: 8040628876573610616, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -9, y: 21, z: 0}
@@ -37417,7 +37365,7 @@ Tilemap:
       - {fileID: -8904985874043957587, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -731699197640244029, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: 8040628876573610616, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -27, y: 38, z: 0}
