@@ -10,6 +10,7 @@ public class PauseMenu : MonoBehaviour
     public string resetLevel;
     public FloatValue hearts;
     public FloatValue heartContainer;
+    public Inventory playerInventory;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,5 +53,6 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         hearts.RuntimeValue = hearts.initialValue;
         heartContainer.RuntimeValue = heartContainer.initialValue;
+        playerInventory.currentArrows = playerInventory.maxArrows;
     }
 }

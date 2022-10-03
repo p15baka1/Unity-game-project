@@ -6,6 +6,7 @@ public class GameOverMenu : MonoBehaviour
 
     public FloatValue hearts;
     public FloatValue heartContainer;
+    public Inventory playerInventory;
     public void NewGame()
     {
         SceneManager.LoadScene("SampleScene");
@@ -23,6 +24,7 @@ public class GameOverMenu : MonoBehaviour
         SceneManager.LoadScene("Level 2");
         hearts.RuntimeValue = 8;
         heartContainer.RuntimeValue = 4;
+        playerInventory.currentArrows = playerInventory.maxArrows;
     }
 
     public void RetryBossLevel()
@@ -30,7 +32,8 @@ public class GameOverMenu : MonoBehaviour
         SceneManager.LoadScene("Level Bossfight");
         hearts.RuntimeValue = 10;
         heartContainer.RuntimeValue = 5;
-        
+        playerInventory.currentArrows = playerInventory.maxArrows;
+
     }
 
     public void QuitGame()

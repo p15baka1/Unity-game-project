@@ -520,6 +520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hearts: {fileID: 11400000, guid: dda9b1b6ce38d804fbe754dc7cb8ffaa, type: 2}
   heartContainer: {fileID: 11400000, guid: f18db44436b63674d95f812ca7de23e4, type: 2}
+  playerInventory: {fileID: 11400000, guid: 40173c187382dde4f8e212c2d829d7bf, type: 2}
 --- !u!224 &903308990
 RectTransform:
   m_ObjectHideFlags: 0
