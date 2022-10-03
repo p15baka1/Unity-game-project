@@ -1359,7 +1359,7 @@ PrefabInstance:
     - target: {fileID: 2569869724245014412, guid: 7e462cefe2ccc6749a579d79b67d5dfd,
         type: 3}
       propertyPath: enemies.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2569869724245014412, guid: 7e462cefe2ccc6749a579d79b67d5dfd,
         type: 3}
@@ -2976,8 +2976,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.4, y: -54.2}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchoredPosition: {x: 38.7, y: -48.7}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435990520
 MonoBehaviour:
@@ -3297,75 +3297,6 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 466933698}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &473376849
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1120052193}
-    m_Modifications:
-    - target: {fileID: 5939514695811493456, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_Name
-      value: Quiver
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 10.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 13.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5939514695811493462, guid: f7fc6b099f9f17040a6c90caefb6b7b4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f7fc6b099f9f17040a6c90caefb6b7b4, type: 3}
 --- !u!4 &511646416 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6255729595033351615, guid: 9163d55ea68bfc04ab64903212619f64,
@@ -3837,6 +3768,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6516105730091799571, guid: 1be047d5cc4aa3442b17d1833223ae18,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8256994499725329671, guid: 1be047d5cc4aa3442b17d1833223ae18,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -6066,7 +6002,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You can see your arrows down here!
+  m_Text: You can see how many arrows you have here
 --- !u!222 &1186697419
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37915,7 +37851,7 @@ Tilemap:
       - {fileID: -8904985874043957587, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -731699197640244029, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: 8040628876573610616, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 21, y: 36, z: 0}
@@ -38119,7 +38055,7 @@ Tilemap:
       - {fileID: -8904985874043957587, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: -731699197640244029, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
       - {fileID: 8040628876573610616, guid: b90903cfeacfe4643baa73d0c529ad5e, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -46612,7 +46548,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 43
-      m_TileSpriteIndex: 43
+      m_TileSpriteIndex: 45
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -48012,14 +47948,14 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 2099711916864691331, guid: b90903cfeacfe4643baa73d0c529ad5e,
-      type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 3111500732166454620, guid: b90903cfeacfe4643baa73d0c529ad5e,
       type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 2099711916864691331, guid: b90903cfeacfe4643baa73d0c529ad5e,
+      type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 2774945308460703022, guid: b90903cfeacfe4643baa73d0c529ad5e,
       type: 3}
