@@ -1609,6 +1609,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: Press the Space Button to Attack!
       objectReference: {fileID: 0}
+    - target: {fileID: 4485765017155462095, guid: 1be047d5cc4aa3442b17d1833223ae18,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8256994499725329671, guid: 1be047d5cc4aa3442b17d1833223ae18,
         type: 3}
       propertyPath: m_AnchorMax.x
